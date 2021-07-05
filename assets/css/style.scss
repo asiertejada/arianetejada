@@ -1,0 +1,57 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+#clock {
+  display: block;
+  text-align: center;
+  line-height: 2;
+  color:#fff;
+  font-weight:700;
+  background-color: #267CB9;
+  border-radius: 5px;
+  margin: auto;
+  padding: 15px;
+}
+
+#drone {
+  display: block;
+  text-align: center;
+  margin: auto;
+}
+
+@media print, screen {
+  #clock {
+    font-size: 18px;
+    width: 380px;
+  }
+}
+
+@media print, screen and (max-width: 720px){
+  #clock {
+    font-size: 16px;
+    width: 336px;
+  }
+}
+
+@media print, screen and (max-width: 480px){
+  #clock {
+    font-size: 16px;
+    width: auto;
+  }
+}
+
+@media print, screen and (max-width: 420px){
+  #clock {
+    font-size: 14px;
+    width: auto;
+  }
+}
+
+@media print, screen and (max-width: 360px){
+  #clock {
+    font-size: 12px;
+    width: auto;
+  }
+}
